@@ -1,0 +1,175 @@
+# # comapring lists
+# friends = ["Bob", "Rolf", "Anne"]
+# abroad = ["Bob", "Anne", "Rolf"]
+
+# print(set(friends) == set(abroad))
+
+# # "==" or "is"
+# print(friends[1] is abroad[2])
+
+# # if
+# # elif
+# # else
+
+# day_of_week = input("What day of week is it today? ").lower()
+# # print(day_of_week == "monday")
+
+# if day_of_week == "monday":
+#     print("Have a great start of week!")
+# elif day_of_week == "tuesday":
+#     print("It's a productive Tuesday")
+# else: 
+#     print("Full speed ahead")
+
+# print("This always runs.")
+
+
+# ber = (8 <= 12)
+# print (ber)
+
+# pira = ["tom", "yom", "home"]
+# tora = ["tom", "yom", "home"]
+# print  (pira == tora)
+
+# day_of_week = input("What day of the week is today? ")
+# if day_of_week == "monday":
+#     print ("fuck you")
+    
+# elif day_of_week.lower() == "friday":
+#     print ("melech") 
+       
+# else:
+#     print ("nice")
+
+# frinds = ["or", "ron", "shalev"]
+# if "jen" in frinds:
+#     print ("cool")
+# else:
+#     print ("not cool")
+
+# movie = {"to be", "not to be", "been", "been" }
+# M = input("enter movie: ")
+# if M in  movie:
+#     print ("yoe see")
+# else:
+#     print ("go see")
+    
+# print (movie)
+
+
+# N = 5
+# A = input("you want play? ")
+# if A.lower() == "yes":
+#     print ("so lets play ")
+# else:
+#     print ("fuch you")
+#     exit()
+# M = input("guss the nubmer ")
+# if int(M) == int(N):
+#     print ("ALOF")
+# elif int(M) == N - 1:
+#     print ("you off 1")
+
+# else:
+#     print ("fuck you")
+
+
+# Python Functions 
+# def hello():
+#     print("Hello World")
+    
+# print(hello)
+
+# hello()
+
+# print(type(hello))
+
+
+# # Get user age in seconds
+
+# def user_age_in_seconds():
+#     age = int(input("Whats is your age: "))
+#     age_seconds = age * 365 * 24 * 60 * 60
+#     print(f"Your age in seconds is: {age_seconds}")
+
+# user_age_in_seconds()
+
+# def moshe(x,y):
+#     B = x + y
+#     print (B)
+    
+# moshe(4,6)
+
+# def hello (N,T):
+#     print (f"hello {N}{T}")
+    
+# hello("yogev","abo")
+
+# def math():
+#     X = int(input("pich nubmber "))
+#     Y = int(input("pich nubmber "))
+#     if Y == 0:
+#         print ("you fook")
+#     else:
+#         print (X / Y)
+    
+# math()
+
+
+# N = [int (i) for i in input("pich 5 nuber  ").split()]
+    
+
+# def math():
+#     total = sum(N)
+#     con = len(N)
+#     P = (total / con)
+
+#     return (P)
+# K = math()
+# print (K)
+
+    
+
+  
+      
+     
+     
+
+# math()
+
+
+# def math():
+#     if [i for i in N if i % 2 == 0]:
+#         print ("even")
+#     else:
+#         print ("fuck you")
+  
+   
+    
+# math()
+
+
+# def zionim():
+#     P = [i for i in N if i >= 10]  
+#     return (P)
+# F = zionim()
+# print (F)
+# zionim()
+N = [int (i) for i in input("pich 5 nuber  ").split()]
+
+def BIBI (L, R=False):
+    if R == True:
+        return L[::-1]
+    else:
+        return L
+    
+P = BIBI(N)
+T = BIBI(N, True)
+
+if BIBI(N):
+    print (P)
+else:
+    print (T)
+
+BIBI(N, True) 
+sd
